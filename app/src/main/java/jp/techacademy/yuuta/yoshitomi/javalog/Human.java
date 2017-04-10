@@ -2,7 +2,7 @@ package jp.techacademy.yuuta.yoshitomi.javalog;
 
 import android.util.Log;
 
-class Human extends Animal {
+class Human extends Animal implements Thinkable {
     // クラス変数
     static String to_jp = "人";
 
